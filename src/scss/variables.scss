@@ -1,0 +1,17 @@
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$monospace-font-stack: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+$base-font-color: lighten(black, 25%);
+$primary-color: #9c88ff;
+$primary-color-darker:	#8c7ae6;
+$green-color: #44bd32;
+$yellow-color: #e1b12c;
+$red-color: #c23616;
+
+// Breakpoints
+$mobile: 767px;
+$tablet: 992px;
+$desktop: 1199px;
+
+$header-height: 75px;
+$footer-height: 120px;

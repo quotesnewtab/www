@@ -1,0 +1,161 @@
+@import '@/scss/variables.scss';
+@import '@/scss/reset.scss';
+
+* {
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: $base-font-color;
+  font-family: $font-stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  border-bottom: 1px solid transparent;
+  color: $primary-color;
+  text-decoration: none;
+  transition: 0.25s ease;
+
+  &.router-link-exact-active:not(#logotype) {
+    border-bottom: 1px solid $primary-color-darker;
+    color: $primary-color-darker;
+  }
+
+  &:hover {
+    color: $primary-color-darker;
+    text-decoration: underline;
+  }
+
+  i {
+    margin-left: 4px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+em {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 95%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+
+  > .col { 
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 30px;
+    position: relative;
+
+    @media screen and (max-width: $tablet) {
+      flex-basis: auto;
+
+      + .col {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  > .col-auto {
+    flex: 0 0 auto;
+    padding: 0 30px;
+    width: auto;
+  }
+}
+
+.hero {
+  text-align: center;
+  padding: 0 0 50px;
+
+  @media screen and (max-width: $mobile) {
+    padding: 0 0 40px;
+  }
+}
+
+.button {
+  background: $primary-color;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 12px;
+  transition: 0.25s ease;
+
+  &:hover {
+    background: $primary-color-darker;
+    color: white;
+    text-decoration: none;
+  }
+
+  &.big {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+
+.page {
+  padding-top: #{ $header-height + 75px };
+
+  @media screen and (max-width: $mobile) {
+    padding-top: #{ $header-height + 25px };
+  }
+
+  > h2 {
+    margin-bottom: 100px;
+    text-align: center;
+
+    @media screen and (max-width: $mobile) {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
