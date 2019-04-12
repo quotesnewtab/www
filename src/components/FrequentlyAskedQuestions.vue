@@ -9,7 +9,7 @@
             <li>Click <em>More tools</em> <eva-icon style="position: relative; top: 2px; margin: 0 5px;" name="arrow-forward" height="15" width="15" fill="#999"></eva-icon> <em>Extensions</em>.</li>
             <li>Find our extension and click on <em>Remove</em>.</li>
           </ol>
-          <p class="reference">Reference: <a href="https://support.google.com/chrome_webstore/answer/2664769?hl=en">https://support.google.com/chrome_webstore/answer/2664769?hl=en</a></p>
+          <p class="reference">Reference: <a href="https://support.google.com/chrome_webstore/answer/2664769?hl=en">https://support.google.com/chrome_webstore/answer/2664769?hl=en<eva-icon name="external-link-outline" height="13" width="13" fill="#8c7ae6"></eva-icon></a></p>
         </li>
 
         <li class="upper" v-on:click="collapse($event)">Can I submit a personal quote?<eva-icon name="arrow-ios-downward-outline"></eva-icon></li>
