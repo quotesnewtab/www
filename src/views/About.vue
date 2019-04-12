@@ -6,6 +6,8 @@
           <h2>About</h2>
           <p>Quotes New Tab is a Chrome extension that replaces your new tab with a minimalistic homepage featuring a random motivational quote to keep you motivated and inspired every day.
 
+            All the code for this extension, website and API is open sourced and available on our <a href="https://github.com/quotesnewtab">GitHub page<eva-icon name="external-link-outline" height="15" width="15" fill="#8c7ae6"></eva-icon></a>.
+
             This extension was written and is maintained by <a href="https://emilcarlsson.se">Emil Carlsson</a>.</p>
         </div>
         <div class="col">
