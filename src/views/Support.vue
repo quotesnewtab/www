@@ -9,10 +9,10 @@
           <p>Check out the F.A.Q. section for the most common inquiries. If you still need help feel free to contact us at <a href="mailto:support@quotesnewtab.com">support@quotesnewtab.com</a>.</p>
 
           <h3>Have a feature idea?</h3>
-          <p>Awesome! Head on over to our GitHub and <a href="">create an issue<eva-icon name="external-link-outline" height="15" width="15" fill="#8c7ae6"></eva-icon></a>.</p>
+          <p>Awesome! Head on over to our GitHub and <a href="https://github.com/quotesnewtab/quotesnewtab/issues/new?title=Feature%20request:">create an issue<eva-icon name="external-link-outline" height="15" width="15" fill="#8c7ae6"></eva-icon></a>.</p>
 
           <h3>Found a bug?</h3>
-          <p>Please <a href="">create an issue<eva-icon name="external-link-outline" height="15" width="15" fill="#8c7ae6"></eva-icon></a> and try to explain as detailed as possible what the bug is and how it can be re-produced.</p>
+          <p>Please <a href="https://github.com/quotesnewtab/quotesnewtab/issues/new">create an issue<eva-icon name="external-link-outline" height="15" width="15" fill="#8c7ae6"></eva-icon></a> and try to explain as detailed as possible what the bug is and how it can be re-produced.</p>
         </div>
         <div class="col-auto">
           <h3>F.A.Q.</h3>
