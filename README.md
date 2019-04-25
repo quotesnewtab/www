@@ -4,7 +4,7 @@ This repository contains the source code for [quotesnewtab.com](https://quotesne
 
 ## About
 
-Made with [Vue CLI 3](https://cli.vuejs.org/) and [axios](https://github.com/axios/axios). Utilizing the [Quotes New Tab API](https://quotesnewtab.com/api/docs). Colors by [Open Color](https://yeun.github.io/open-color/).
+Made with [Vue CLI 3](https://cli.vuejs.org/) and [axios](https://github.com/axios/axios). Utilizing the [Quotes New Tab API](https://quotesnewtab.com/api/docs).
 
 ## Project setup
 
