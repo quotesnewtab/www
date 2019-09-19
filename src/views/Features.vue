@@ -25,7 +25,7 @@ export default {
       features: [
         {
           title: "Handpicked Quotes",
-          description: "Get motivated every time you open a new tab by one of our over 500 carefully chosen quotes.",
+          description: "Get motivated every time you open a new tab by one of our over 650 carefully chosen quotes.",
           icon: "message-square-outline"
         },
         {
