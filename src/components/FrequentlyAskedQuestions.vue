@@ -27,7 +27,7 @@
           </p>
         </li>
 
-        <li class="upper" v-on:click="collapse($event)">I submitted a quote but have not received a response?<eva-icon name="arrow-ios-downward-outline"></eva-icon></li>
+        <li class="upper" v-on:click="collapse($event)">I submitted a quote but can't find it?<eva-icon name="arrow-ios-downward-outline"></eva-icon></li>
         <li class="lower">
           <p>Here are a few reasons why that could be:</p>
             <ul>
