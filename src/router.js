@@ -56,6 +56,10 @@ export default new Router({
       path: '/support/banned',
       name: 'banned',
       component: () => import(/* webpackChunkName: "banned" */ './views/Banned.vue')
+    },
+    {
+      path: '/chrome',
+      beforeEnter() { location.href = 'https://chrome.google.com/webstore/detail/quotes-new-tab/fnhpicigolcacikdjdocmkfnplmefadg' }
     }
   ]
 })
