@@ -18,9 +18,9 @@
           <!--<span class="version">v2.0.0</span>-->
         </div>
         <nav>
+          <router-link to="/quotes">Quotes</router-link>
           <router-link to="/features">Features</router-link>
           <a href="https://www.paypal.me/CarlssonEmil">Donate</a>
-          <router-link to="/api/docs">API</router-link>
           <a href="https://github.com/quotesnewtab">GitHub</a>
           <a class="button" href="https://chrome.google.com/webstore/detail/quotes-new-tab/fnhpicigolcacikdjdocmkfnplmefadg">Add to Chrome</a>
         </nav>
@@ -37,6 +37,7 @@
 
         <nav>
           <router-link to="/submit">Submit a quote</router-link>
+          <router-link to="/api/docs">API</router-link>
           <router-link to="/about">About</router-link>
           <router-link to="/support">Support</router-link>
         </nav>

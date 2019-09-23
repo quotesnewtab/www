@@ -5,7 +5,6 @@
         <h1>A new motivational quote in every new tab.</h1>
       </div>
       <ExtensionPreview v-on:show="show = true" />
-      <router-link to="/quotes" class="button big">View all quotes</router-link>
     </div>
   </transition>
 </template>
