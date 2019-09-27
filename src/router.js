@@ -71,5 +71,8 @@ export default new Router({
       path: '/chrome',
       beforeEnter() { location.href = 'https://chrome.google.com/webstore/detail/quotes-new-tab/fnhpicigolcacikdjdocmkfnplmefadg' }
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { x: 0, y: 0 }
+  }
 })
