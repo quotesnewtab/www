@@ -40,6 +40,8 @@
           <router-link to="/api/docs">API</router-link>
           <router-link to="/about">About</router-link>
           <router-link to="/support">Support</router-link>
+          <router-link to="/privacy">Privacy</router-link>
+          <router-link to="/terms">Terms</router-link>
         </nav>
       </div>
     </footer>

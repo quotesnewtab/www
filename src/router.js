@@ -33,6 +33,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "features" */ './views/Features.vue')
     },
     {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import(/* webpackChunkName: "privacy" */ './views/Privacy.vue')
+    },
+    {
       path: '/quotes',
       name: 'quotes',
       component: () => import(/* webpackChunkName: "quotes" */ './views/Quotes.vue')
@@ -51,6 +56,11 @@ export default new Router({
       path: '/support',
       name: 'support',
       component: () => import(/* webpackChunkName: "support" */ './views/Support.vue')
+    },
+    {
+      path: '/terms',
+      name: 'terms',
+      component: () => import(/* webpackChunkName: "terms" */ './views/Terms.vue')
     },
     {
       path: '/support/banned',

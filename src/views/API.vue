@@ -13,7 +13,7 @@
           <h3>API Reference</h3>
           <div class="columns">
             <div class="left">
-              <p>The Quotes New Tab API is organized around <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a>. Our API has predictable resource-oriented URLs, accepts and returns <a href="http://www.json.org/">JSON-encoded</a> data, and uses standard HTTP response codes.</p>
+              <p>The Quotes New Tab API is organized around <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a>. Our API has predictable resource-oriented URLs, accepts and returns <a href="http://www.json.org/">JSON-encoded</a> data, and uses standard HTTP response codes. By using our API you acknowledge and agree to our <router-link to="/terms">Terms of Service</router-link>.</p>
             </div>
             <div class="right">
               <div class="card">
