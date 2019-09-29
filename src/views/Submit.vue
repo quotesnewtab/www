@@ -11,6 +11,7 @@
           <ul>
             <li>You are an awesome person for taking the time to submit a quote! 🤩</li>
             <li>This quote does not already exist in the database. <router-link to="/quotes">Check here</router-link>.</li>
+            <li>This quote is in English.</li>
             <li>This is a real quote by a real person.</li>
             <li>To the best of your knowledge this author have said/written this quote.</li>
             <li>Your name, if submitted, will be visible with the quote.</li>
