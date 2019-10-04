@@ -58,7 +58,7 @@ export default {
         axios.post(`${ process.env.VUE_APP_BASE_API_URL }submissions?auth_token=${ process.env.VUE_APP_SUBMISSION_TOKEN }`, {
           author: this.input.author,
           quote: this.input.quote,
-          submitter: this.input.submitter
+          submitted_by: this.input.submitter
         })
         // eslint-disable-next-line
         .then(response => {
