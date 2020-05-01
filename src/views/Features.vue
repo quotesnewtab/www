@@ -9,7 +9,7 @@
             <eva-icon :name="feature.icon" height="35" width="35" fill="#8c7ae6" animation="shake"></eva-icon>
             <h3>{{ feature.title }}</h3>
           </div>
-          <p class="description">{{ feature.description }}</p>
+          <p class="description" v-for="(description, index) in feature.description" :key="index">{{ description }}</p>
         </div>
       </div>
     </div>
@@ -25,32 +25,45 @@ export default {
       features: [
         {
           title: "Handpicked Quotes",
-          description: "Get motivated every time you open a new tab by one of our over 650 carefully chosen quotes.",
+          description: [
+            "Get motivated every time you open a new tab by one of our over 1,000 carefully chosen quotes."
+          ],
           icon: "message-square-outline"
         },
         {
           title: "Quick Links",
-          description: "Quickly access your most visited sites with a tap of a button.",
+          description: [
+            "Quickly access your most visited sites with a tap of a button."
+          ],
           icon: "link-2"
         },
         {
           title: "Customizable Interface",
-          description: "Quickly change fonts, colors and customize what is visible with a few easy button clicks.\n\nSettings are automatically saved and remembered each time you open a new tab.",
+          description: [
+            "Quickly change fonts, colors and customize what is visible with a few easy button clicks.",
+            "Settings are automatically saved and remembered each time you open a new tab."
+          ],
           icon: "color-palette-outline"
         },
         {
           title: "Quote Slideshow",
-          description: "Turn on 'Auto-refresh new quotes' in the settings and lean back while a new quote is fetched every 15 seconds.",
+          description: [
+            "Turn on 'Auto-refresh new quotes' in the settings and lean back while a new quote is fetched every 15 seconds."
+          ],
           icon: "play-circle-outline"
         },
         {
           title: "Tell Your Friends",
-          description: "Share your favorite quotes on Twitter and Facebook.",
+          description: [
+            "Share your favorite quotes on Twitter and Facebook."
+          ],
           icon: "heart-outline"
         },
         {
           title: "It's Free",
-          description: "Quotes New Tab will always have a completely free, no-ads, version available.",
+          description: [
+            "Quotes New Tab will always have a completely free, no-ads, version available."
+          ],
           icon: "pricetags-outline"
         }
       ]
@@ -99,6 +112,10 @@ export default {
     p.description {
       font-size: 20px;
       padding-left: 55px;
+
+      + .description {
+        margin-top: 10px;
+      }
     }
   }
 }
