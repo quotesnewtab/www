@@ -22,11 +22,6 @@
             <th>Where it is used</th>
           </tr>
           <tr>
-            <td class="fit-content"><a href="https://developer.chrome.com/extensions/management">Management</a></td>
-            <td class="fit-content">New Tab</td>
-            <td>This permission is crucial for the core functionality of the extension, since it can control what is shown on the new tab page of the browser.</td>
-          </tr>
-          <tr>
             <td class="fit-content"><a href="https://developer.chrome.com/extensions/topSites">Top Sites</a></td>
             <td class="fit-content">Top Sites Tiles</td>
             <td>Used only within the extension to display your most visited sites as tiles. This is not sent or stored elsewhere.</td>
